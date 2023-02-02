@@ -24,7 +24,7 @@ function foo() {
     // let td = document.createElement('td')
     if (count == 0) {
         if (random >= 50) {
-            tr.innerHTML =`<td class="yellow">${random}</td>`
+            tr.innerHTML = `<td class="yellow">${random}</td>`
             document.body.append(tr)
             count++
         } else if (random < 50) {
